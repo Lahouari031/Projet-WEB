@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vie Étudiante – Département Informatique EFREI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <img src="img/R.png" alt="Logo EFREI">
+        <span>Département<br>Informatique</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formations.html">Formations</a></li>
+        <li><a href="equipe.html">Équipe</a></li>
+        <li><a href="vie-etudiante.html" class="active">Vie Étudiante</a></li>
+        <li><a href="partenariats.html">Partenariats</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+      <div class="burger"><span></span><span></span><span></span></div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="page-hero" style="background: linear-gradient(135deg, var(--bleu-dark), var(--bleu));">
+    <h1>Vie Étudiante & Campus</h1>
+    <p>Un campus vivant, des associations dynamiques et une communauté qui fait la force de l'EFREI</p>
+  </section>
+
+  <!-- CAMPUS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Installations</span>
+        <h2>Un campus taillé pour l'excellence</h2>
+        <div class="divider"></div>
+        <p>Le campus de Villejuif met à votre disposition des infrastructures modernes pour apprendre, créer et collaborer</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card reveal">
+          <div class="card-icon">🖥️</div>
+          <h3>Labs Informatiques</h3>
+          <p>Des salles équipées de machines haute performance avec les derniers outils et logiciels professionnels (IDE, serveurs de développement, clusters IA).</p>
+        </div>
+        <div class="card reveal" data-delay="100">
+          <div class="card-icon">🤝</div>
+          <h3>Espaces Coworking</h3>
+          <p>Des zones de travail collaboratif ouvertes 7j/7, pensées pour favoriser les échanges entre étudiants de différentes promos et filières.</p>
+        </div>
+        <div class="card reveal" data-delay="200">
+          <div class="card-icon">📚</div>
+          <h3>Plateformes Pédagogiques</h3>
+          <p>Accès illimité à Openclassrooms, LinkedIn Learning, Coursera et à la bibliothèque numérique pour approfondir vos apprentissages.</p>
+        </div>
+        <div class="card reveal" data-delay="300">
+          <div class="card-icon">🔬</div>
+          <h3>Labo de Recherche</h3>
+          <p>Un espace dédié aux projets de recherche et aux expérimentations avancées, accessible aux étudiants de cycle ingénieur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLUBS & ASSOCIATIONS -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Associations</span>
+        <h2>Clubs & Associations informatiques</h2>
+        <div class="divider"></div>
+        <p>Rejoignez une communauté active et développez vos compétences en dehors des cours</p>
+      </div>
+      <div class="clubs-grid">
+        <div class="club-card reveal">
+          <div class="club-icon">⚔️</div>
+          <h3>EFREI CTF</h3>
+          <p>Club de Capture The Flag. Entraînez-vous à la cybersécurité offensive et participez à des compétitions nationales et internationales.</p>
+        </div>
+        <div class="club-card reveal" data-delay="100">
+          <div class="club-icon">🤖</div>
+          <h3>Club Robotique</h3>
+          <p>Conception et programmation de robots autonomes. Participez à des concours robotiques comme la Coupe de France de Robotique.</p>
+        </div>
+        <div class="club-card reveal" data-delay="200">
+          <div class="club-icon">💻</div>
+          <h3>Code & Dev</h3>
+          <p>Ateliers de programmation, hackathons internes, mentorat entre étudiants. Le club où on apprend en codant des projets réels.</p>
+        </div>
+        <div class="club-card reveal" data-delay="300">
+          <div class="club-icon">🎮</div>
+          <h3>EFREI E-Sport</h3>
+          <p>Association e-sport avec des équipes compétitives sur plusieurs jeux. Développez esprit d'équipe et stratégie dans un cadre ludique.</p>
+        </div>
+        <div class="club-card reveal">
+          <div class="club-icon">🚀</div>
+          <h3>Startup Studio</h3>
+          <p>Accompagnement des projets entrepreneuriaux étudiants. De l'idée au prototype, avec des mentors issus de l'écosystème startup.</p>
+        </div>
+        <div class="club-card reveal" data-delay="100">
+          <div class="club-icon">🌐</div>
+          <h3>Open Source EFREI</h3>
+          <p>Contribution à des projets open source, organisation de talks tech et promotion de la culture du logiciel libre sur le campus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TÉMOIGNAGES -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Témoignages</span>
+        <h2>Ils témoignent</h2>
+        <div class="divider"></div>
+        <p>Ce que nos étudiants et Alumni disent de leur expérience à l'EFREI</p>
+      </div>
+      <div class="temoignages">
+        <div class="temoignage-card reveal" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:var(--blanc);">
+          <p style="color:rgba(255,255,255,0.8);">"L'EFREI m'a donné la rigueur technique et l'ouverture d'esprit nécessaires pour réussir dans le monde du numérique. Aujourd'hui Data Engineer chez Airbus, je dois beaucoup à ma formation."</p>
+          <div class="temoignage-author">
+            <div class="author-avatar">A.M</div>
+            <div class="author-info">
+              <strong style="color:var(--cyan);">Alexandre M.</strong>
+              <span style="color:rgba(255,255,255,0.5);">Promo 2022 – Data Engineer @ Airbus</span>
+            </div>
+          </div>
+        </div>
+        <div class="temoignage-card reveal" data-delay="100" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1);">
+          <p style="color:rgba(255,255,255,0.8);">"La vie associative à l'EFREI est incroyable. Le club CTF m'a permis de découvrir ma passion pour la cybersécurité et de décrocher mon stage de rêve chez Thales."</p>
+          <div class="temoignage-author">
+            <div class="author-avatar">S.K</div>
+            <div class="author-info">
+              <strong style="color:var(--cyan);">Sarah K.</strong>
+              <span style="color:rgba(255,255,255,0.5);">3ème année – Cybersécurité & Réseaux</span>
+            </div>
+          </div>
+        </div>
+        <div class="temoignage-card reveal" data-delay="200" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1);">
+          <p style="color:rgba(255,255,255,0.8);">"L'alternance à l'EFREI est un vrai tremplin. J'ai pu appliquer mes cours directement en entreprise. À la fin de ma formation, j'avais déjà 2 ans d'expérience professionnelle."</p>
+          <div class="temoignage-author">
+            <div class="author-avatar">T.B</div>
+            <div class="author-info">
+              <strong style="color:var(--cyan);">Thomas B.</strong>
+              <span style="color:rgba(255,255,255,0.5);">Promo 2023 – Développeur Full-Stack @ Capgemini</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS ÉTUDIANTS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Projets</span>
+        <h2>Projets étudiants remarquables</h2>
+        <div class="divider"></div>
+        <p>Des réalisations concrètes qui témoignent du niveau de nos étudiants</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card reveal">
+          <div style="font-size:48px; margin-bottom:16px;">🧠</div>
+          <h3>MediAI</h3>
+          <p>Système de détection précoce de maladies par analyse d'images médicales grâce au Deep Learning. Projet primé au Challenge Santé Numérique 2024.</p>
+          <br>
+          <div style="display:flex; gap:6px; flex-wrap:wrap;">
+            <span class="tag">Python</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">IA</span>
+          </div>
+        </div>
+        <div class="card reveal" data-delay="100">
+          <div style="font-size:48px; margin-bottom:16px;">🔐</div>
+          <h3>SecurePass</h3>
+          <p>Gestionnaire de mots de passe open-source avec chiffrement de bout en bout et authentification multi-facteur. Plus de 500 stars sur GitHub.</p>
+          <br>
+          <div style="display:flex; gap:6px; flex-wrap:wrap;">
+            <span class="tag">Rust</span>
+            <span class="tag">Cryptographie</span>
+            <span class="tag">Open Source</span>
+          </div>
+        </div>
+        <div class="card reveal" data-delay="200">
+          <div style="font-size:48px; margin-bottom:16px;">🌱</div>
+          <h3>EcoTrack</h3>
+          <p>Application mobile de suivi de l'empreinte carbone personnelle. Intégration d'IA pour des recommandations personnalisées et gamification.</p>
+          <br>
+          <div style="display:flex; gap:6px; flex-wrap:wrap;">
+            <span class="tag">React Native</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">ML</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="img/R.png" alt="Logo EFREI">
+        <p>La Grande École d'Ingénieurs Généralistes et d'Experts du Numérique.</p>
+        <p>📍 30-32 Avenue de la République, 94800 Villejuif</p>
+      </div>
+      <div class="footer-col">
+        <h4>Formations</h4>
+        <ul>
+          <li><a href="formations.html">Bachelors</a></li>
+          <li><a href="formations.html">Cycle Ingénieur</a></li>
+          <li><a href="formations.html">Alternance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Découvrir</h4>
+        <ul>
+          <li><a href="equipe.html">Corps Enseignant</a></li>
+          <li><a href="vie-etudiante.html">Vie Étudiante</a></li>
+          <li><a href="partenariats.html">Partenariats</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Admissions</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 EFREI Paris – Département Informatique.</p>
+      <nav>
+        <a href="apropos.html">À propos du projet</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="back-to-top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

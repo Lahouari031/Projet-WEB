@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formations – Département Informatique EFREI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <img src="img/R.png" alt="Logo EFREI">
+        <span>Département<br>Informatique</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formations.html" class="active">Formations</a></li>
+        <li><a href="equipe.html">Équipe</a></li>
+        <li><a href="vie-etudiante.html">Vie Étudiante</a></li>
+        <li><a href="partenariats.html">Partenariats</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+      <div class="burger"><span></span><span></span><span></span></div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <h1>Nos Formations</h1>
+    <p>Du Bachelor au Cycle Ingénieur, une offre complète pour construire votre expertise dans le numérique</p>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Objectifs pédagogiques</span>
+        <h2>Une pédagogie d'excellence</h2>
+        <div class="divider"></div>
+        <p>Nos formations combinent rigueur académique, projets concrets et ouverture professionnelle pour former les ingénieurs et experts du numérique de demain.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card reveal">
+          <div class="card-icon">🏆</div>
+          <h3>Expertise Technique</h3>
+          <p>Maîtrise des langages, architectures et outils les plus demandés du marché professionnel.</p>
+        </div>
+        <div class="card reveal" data-delay="100">
+          <div class="card-icon">📊</div>
+          <h3>Gestion de Projet</h3>
+          <p>Méthodes Agile, Scrum, et conduite de projet pour gérer des équipes et des deadlines.</p>
+        </div>
+        <div class="card reveal" data-delay="200">
+          <div class="card-icon">💡</div>
+          <h3>Innovation</h3>
+          <p>Esprit entrepreneurial, créativité et capacité à concevoir des solutions innovantes face aux défis technologiques.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TABS FORMATIONS -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Programmes</span>
+        <h2>Choisissez votre formation</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="formations-tabs reveal">
+        <button class="tab-btn active" data-tab="bachelors">🎓 Bachelors</button>
+        <button class="tab-btn" data-tab="ingenieur">⚙️ Cycle Ingénieur</button>
+        <button class="tab-btn" data-tab="alternance">🔄 Alternance</button>
+      </div>
+
+      <!-- BACHELORS -->
+      <div class="tab-panel cards-grid" id="bachelors">
+        <div class="formation-card reveal">
+          <div class="formation-card-header">
+            <span class="formation-badge">Bachelor</span>
+            <h3>Informatique – Grade de Licence</h3>
+            <p>Formation généraliste en informatique avec spécialisations</p>
+          </div>
+          <div class="formation-card-body">
+            <ul>
+              <li>Développement Web & Mobile</li>
+              <li>Bases de données & SQL</li>
+              <li>Systèmes & Réseaux</li>
+              <li>IA & Machine Learning (initiation)</li>
+              <li>Gestion de projet Agile</li>
+            </ul>
+          </div>
+          <div class="formation-card-footer">
+            <div>
+              <span class="tag">3 ans</span>
+              <span class="tag">Initiale</span>
+              <span class="tag">Alternance</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formation-card reveal" data-delay="100">
+          <div class="formation-card-header" style="background: linear-gradient(135deg, #0A316C, #1a5276);">
+            <span class="formation-badge">Bachelor</span>
+            <h3>Cybersécurité & Réseaux</h3>
+            <p>Devenez un expert en protection des systèmes informatiques</p>
+          </div>
+          <div class="formation-card-body">
+            <ul>
+              <li>Sécurité des systèmes d'information</li>
+              <li>Cryptographie & protocoles</li>
+              <li>Réseaux & administration</li>
+              <li>CTF – Capture The Flag</li>
+              <li>Audit & conformité RGPD</li>
+            </ul>
+          </div>
+          <div class="formation-card-footer">
+            <div>
+              <span class="tag">3 ans</span>
+              <span class="tag">Initiale</span>
+              <span class="tag">Alternance</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formation-card reveal" data-delay="200">
+          <div class="formation-card-header" style="background: linear-gradient(135deg, #0A316C, #0e4d6e);">
+            <span class="formation-badge">Bachelor</span>
+            <h3>Développeur Web & IA</h3>
+            <p>Maîtrisez le développement web moderne et l'intelligence artificielle</p>
+          </div>
+          <div class="formation-card-body">
+            <ul>
+              <li>HTML5, CSS3, JavaScript avancé</li>
+              <li>Frameworks Front & Back-end</li>
+              <li>Python & Data Science</li>
+              <li>Machine Learning appliqué</li>
+              <li>UX/UI Design & Accessibilité</li>
+            </ul>
+          </div>
+          <div class="formation-card-footer">
+            <div>
+              <span class="tag">3 ans</span>
+              <span class="tag">Initiale</span>
+              <span class="tag">Alternance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CYCLE INGENIEUR -->
+      <div class="tab-panel cards-grid" id="ingenieur">
+        <div class="formation-card reveal">
+          <div class="formation-card-header">
+            <span class="formation-badge">Cycle Ingénieur</span>
+            <h3>Information Technology (IT)</h3>
+            <p>Logiciels, Systèmes d'Information et Architecture</p>
+          </div>
+          <div class="formation-card-body">
+            <ul>
+              <li>Architecture logicielle & microservices</li>
+              <li>Développement Full-Stack avancé</li>
+              <li>Cloud Computing & DevOps</li>
+              <li>Systèmes d'information d'entreprise</li>
+              <li>Projet de fin d'études (PFE)</li>
+            </ul>
+          </div>
+          <div class="formation-card-footer">
+            <div>
+              <span class="tag">5 ans</span>
+              <span class="tag">Initiale</span>
+              <span class="tag">Alternance</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formation-card reveal" data-delay="100">
+          <div class="formation-card-header" style="background: linear-gradient(135deg, #0A316C, #1a5276);">
+            <span class="formation-badge">Cycle Ingénieur</span>
+            <h3>Data Science</h3>
+            <p>Intelligence Artificielle, Big Data et analyse prédictive</p>
+          </div>
+          <div class="formation-card-body">
+            <ul>
+              <li>Machine Learning & Deep Learning</li>
+              <li>Big Data – Hadoop, Spark</li>
+              <li>Data Visualisation & BI</li>
+              <li>NLP & Computer Vision</li>
+              <li>Statistiques avancées</li>
+            </ul>
+          </div>
+          <div class="formation-card-footer">
+            <div>
+              <span class="tag">5 ans</span>
+              <span class="tag">Initiale</span>
+              <span class="tag">Alternance</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formation-card reveal" data-delay="200">
+          <div class="formation-card-header" style="background: linear-gradient(135deg, #0A316C, #0e4d6e);">
+            <span class="formation-badge">Cycle Ingénieur</span>
+            <h3>Sécurité & Réseaux</h3>
+            <p>Cyberdéfense, SOC et architecture réseau avancée</p>
+          </div>
+          <div class="formation-card-body">
+            <ul>
+              <li>Penetration Testing & Red Team</li>
+              <li>SOC & Réponse aux incidents</li>
+              <li>Architecture réseau avancée</li>
+              <li>Forensics & investigation numérique</li>
+              <li>Conformité ISO 27001</li>
+            </ul>
+          </div>
+          <div class="formation-card-footer">
+            <div>
+              <span class="tag">5 ans</span>
+              <span class="tag">Initiale</span>
+              <span class="tag">Alternance</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="formation-card reveal" data-delay="300">
+          <div class="formation-card-header" style="background: linear-gradient(135deg, #0A316C, #154360);">
+            <span class="formation-badge">Cycle Ingénieur</span>
+            <h3>Systèmes Embarqués</h3>
+            <p>IoT, robotique et systèmes temps réel</p>
+          </div>
+          <div class="formation-card-body">
+            <ul>
+              <li>Programmation bas niveau (C, C++)</li>
+              <li>IoT & protocoles embarqués</li>
+              <li>Systèmes temps réel (RTOS)</li>
+              <li>Robotique & automatisation</li>
+              <li>Architecture matérielle</li>
+            </ul>
+          </div>
+          <div class="formation-card-footer">
+            <div>
+              <span class="tag">5 ans</span>
+              <span class="tag">Initiale</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ALTERNANCE -->
+      <div class="tab-panel" id="alternance" style="display:none; opacity:0;">
+        <div class="cards-grid">
+          <div class="card reveal">
+            <div class="card-icon">📋</div>
+            <h3>Modalités d'alternance</h3>
+            <p>La majorité de nos formations sont disponibles en alternance dès la 2ème année. Rythme : 3 semaines en entreprise / 1 semaine à l'école.</p>
+          </div>
+          <div class="card reveal" data-delay="100">
+            <div class="card-icon">💰</div>
+            <h3>Rémunération</h3>
+            <p>En tant qu'alternant, vous êtes salarié et percevez une rémunération mensuelle selon la grille légale et votre niveau d'études.</p>
+          </div>
+          <div class="card reveal" data-delay="200">
+            <div class="card-icon">🏢</div>
+            <h3>Entreprises partenaires</h3>
+            <p>Plus de 120 entreprises partenaires recrutent nos alternants chaque année : Capgemini, Thales, Orange, BNP Paribas, et bien d'autres.</p>
+          </div>
+          <div class="card reveal" data-delay="300">
+            <div class="card-icon">📞</div>
+            <h3>Trouver votre alternance</h3>
+            <p>Notre service Relations Entreprises vous accompagne dans votre recherche et met à disposition un jobboard dédié aux offres d'alternance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TABLEAU RÉCAPITULATIF -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Récapitulatif</span>
+        <h2>Débouchés professionnels</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="reveal" style="overflow-x:auto;">
+        <table style="width:100%; border-collapse:collapse; background:var(--blanc); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow);">
+          <thead>
+            <tr style="background:var(--bleu); color:var(--blanc);">
+              <th style="padding:18px 20px; text-align:left; font-family:'Montserrat',sans-serif; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">Formation</th>
+              <th style="padding:18px 20px; text-align:left; font-family:'Montserrat',sans-serif; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">Niveau</th>
+              <th style="padding:18px 20px; text-align:left; font-family:'Montserrat',sans-serif; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">Durée</th>
+              <th style="padding:18px 20px; text-align:left; font-family:'Montserrat',sans-serif; font-size:13px; text-transform:uppercase; letter-spacing:0.5px;">Débouchés</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid #f0f0f0;">
+              <td style="padding:16px 20px; font-weight:600; color:var(--bleu);">Informatique</td>
+              <td style="padding:16px 20px;">Bac+3</td>
+              <td style="padding:16px 20px;">3 ans</td>
+              <td style="padding:16px 20px; font-size:14px;">Développeur Full-Stack, Administrateur Systèmes, Consultant SI</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f0f0; background:#fafbff;">
+              <td style="padding:16px 20px; font-weight:600; color:var(--bleu);">Cybersécurité & Réseaux</td>
+              <td style="padding:16px 20px;">Bac+3</td>
+              <td style="padding:16px 20px;">3 ans</td>
+              <td style="padding:16px 20px; font-size:14px;">Analyste SOC, Ingénieur Sécurité, Pentesteur</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f0f0;">
+              <td style="padding:16px 20px; font-weight:600; color:var(--bleu);">Développeur Web & IA</td>
+              <td style="padding:16px 20px;">Bac+3</td>
+              <td style="padding:16px 20px;">3 ans</td>
+              <td style="padding:16px 20px; font-size:14px;">Développeur IA, Data Engineer, UX Developer</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f0f0; background:#fafbff;">
+              <td style="padding:16px 20px; font-weight:600; color:var(--bleu);">Cycle Ingénieur IT</td>
+              <td style="padding:16px 20px;">Bac+5</td>
+              <td style="padding:16px 20px;">5 ans</td>
+              <td style="padding:16px 20px; font-size:14px;">Ingénieur Logiciel, Architecte Systèmes, Scrum Master</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f0f0;">
+              <td style="padding:16px 20px; font-weight:600; color:var(--bleu);">Data Science</td>
+              <td style="padding:16px 20px;">Bac+5</td>
+              <td style="padding:16px 20px;">5 ans</td>
+              <td style="padding:16px 20px; font-size:14px;">Data Scientist, Machine Learning Engineer, AI Product Manager</td>
+            </tr>
+            <tr style="border-bottom:1px solid #f0f0f0; background:#fafbff;">
+              <td style="padding:16px 20px; font-weight:600; color:var(--bleu);">Sécurité & Réseaux</td>
+              <td style="padding:16px 20px;">Bac+5</td>
+              <td style="padding:16px 20px;">5 ans</td>
+              <td style="padding:16px 20px; font-size:14px;">RSSI, Ingénieur Cyberdéfense, Consultant Sécurité</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="img/R.png" alt="Logo EFREI">
+        <p>La Grande École d'Ingénieurs Généralistes et d'Experts du Numérique.</p>
+        <p>📍 30-32 Avenue de la République, 94800 Villejuif</p>
+      </div>
+      <div class="footer-col">
+        <h4>Formations</h4>
+        <ul>
+          <li><a href="formations.html">Bachelors</a></li>
+          <li><a href="formations.html">Cycle Ingénieur</a></li>
+          <li><a href="formations.html">Alternance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Découvrir</h4>
+        <ul>
+          <li><a href="equipe.html">Corps Enseignant</a></li>
+          <li><a href="vie-etudiante.html">Vie Étudiante</a></li>
+          <li><a href="partenariats.html">Partenariats</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Admissions</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 EFREI Paris – Département Informatique.</p>
+      <nav>
+        <a href="apropos.html">À propos du projet</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="back-to-top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
