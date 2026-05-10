@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Admissions – Département Informatique EFREI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <img src="img/R.png" alt="Logo EFREI">
+        <span>Département<br>Informatique</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formations.html">Formations</a></li>
+        <li><a href="equipe.html">Équipe</a></li>
+        <li><a href="vie-etudiante.html">Vie Étudiante</a></li>
+        <li><a href="partenariats.html">Partenariats</a></li>
+        <li><a href="contact.html" class="nav-cta active">Contact</a></li>
+      </ul>
+      <div class="burger"><span></span><span></span><span></span></div>
+    </nav>
+  </header>
+
+  <section class="page-hero" style="background: var(--bleu);">
+    <h1>Contact & Admissions</h1>
+    <p>Vous avez une question ? Notre équipe est disponible pour vous accompagner dans votre projet d'études</p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Infos contact -->
+        <div class="contact-info reveal">
+          <h2>Nous contacter</h2>
+
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div>
+              <h4>Adresse</h4>
+              <p>30-32 Avenue de la République<br>94800 Villejuif, France</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div>
+              <h4>Téléphone</h4>
+              <p>+33 (0)1 46 77 46 00</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p>informatique@efrei.fr<br>admissions@efrei.fr</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🕐</div>
+            <div>
+              <h4>Horaires d'accueil</h4>
+              <p>Lundi – Vendredi : 8h30 – 17h30<br>Fermé les week-ends et jours fériés</p>
+            </div>
+          </div>
+
+          <!-- Accès -->
+          <div id="acces" style="margin-top:30px; background:var(--gris-clair); border-radius:var(--radius); padding:24px;">
+            <h4 style="color:var(--bleu); margin-bottom:12px; font-family:'Montserrat',sans-serif;">🚇 Accès transport</h4>
+            <ul style="font-size:14px; color:#555;">
+              <li style="padding:6px 0; display:flex; gap:8px;">▶ Métro Ligne 7 – Station Villejuif Louis Aragon</li>
+              <li style="padding:6px 0; display:flex; gap:8px;">▶ Métro Ligne 14 – Station Villejuif Institut Gustave Roussy</li>
+              <li style="padding:6px 0; display:flex; gap:8px;">▶ Métro Ligne 15 (Grand Paris Express) – Station Villejuif Louis Aragon</li>
+              <li style="padding:6px 0; display:flex; gap:8px;">▶ Bus 131, 162, 180, 186, 187</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Formulaire -->
+        <div class="contact-form-wrapper reveal" data-delay="100">
+          <h2>Envoyer un message</h2>
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="prenom">Prénom *</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+              </div>
+              <div class="form-group">
+                <label for="nom">Nom *</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="sujet">Sujet *</label>
+              <select id="sujet" name="sujet" required>
+                <option value="">-- Choisissez un sujet --</option>
+                <option value="admission">Admissions & Candidatures</option>
+                <option value="formation">Informations sur les formations</option>
+                <option value="alternance">Alternance & Stages</option>
+                <option value="partenariat">Partenariat entreprise</option>
+                <option value="autre">Autre demande</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Décrivez votre demande..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%; justify-content:center; font-size:15px; padding:16px;">
+              Envoyer le message ▶
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADMISSIONS -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Admissions</span>
+        <h2>Comment candidater ?</h2>
+        <div class="divider"></div>
+        <p>Plusieurs voies d'accès selon votre profil et votre niveau d'études</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card reveal">
+          <div style="font-size:48px; margin-bottom:16px;">🎓</div>
+          <h3>Parcoursup</h3>
+          <p>Pour les élèves de Terminale souhaitant intégrer un Bachelor (Bac+1). Dossier académique, lettre de motivation et parfois entretien.</p>
+          <br>
+          <span class="tag">Bachelors</span>
+          <span class="tag">Bac+1</span>
+        </div>
+        <div class="card reveal" data-delay="100">
+          <div style="font-size:48px; margin-bottom:16px;">✏️</div>
+          <h3>Concours Puissance Alpha</h3>
+          <p>Concours national d'accès aux écoles post-bac scientifiques. Épreuves écrites (Maths, Physique, Français) et entretien de motivation.</p>
+          <br>
+          <span class="tag">Cycle Ingénieur</span>
+          <span class="tag">Bac+1</span>
+        </div>
+        <div class="card reveal" data-delay="200">
+          <div style="font-size:48px; margin-bottom:16px;">🔄</div>
+          <h3>Admissions Parallèles</h3>
+          <p>Pour les titulaires d'un BTS, DUT/BUT, Licence ou équivalent souhaitant intégrer directement en 2ème ou 3ème année.</p>
+          <br>
+          <span class="tag">Bac+2 à Bac+4</span>
+          <span class="tag">Dossier + Entretien</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">FAQ</span>
+        <h2>Questions fréquentes</h2>
+        <div class="divider"></div>
+      </div>
+      <div style="max-width:800px; margin:0 auto;" class="reveal">
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Quels sont les frais de scolarité à l'EFREI ?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Les frais de scolarité varient selon le cycle et le statut (initial / alternance). Pour les Bachelors, comptez entre 7 000€ et 9 000€ par an. Pour le Cycle Ingénieur, de 8 500€ à 11 000€ par an. Des bourses et aides existent. Contactez le service admissions pour un devis personnalisé.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Est-il possible de faire sa scolarité en alternance ?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Oui, la plupart de nos formations sont disponibles en alternance dès la 2ème année. Le rythme est généralement de 3 semaines en entreprise et 1 semaine à l'école. Les frais de scolarité sont pris en charge par l'OPCO de l'entreprise d'accueil.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Quelles sont les chances d'insertion professionnelle après l'EFREI ?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Le taux d'insertion professionnelle de nos diplômés est de 95% à 6 mois. La plupart trouvent un emploi avant même la fin de leur formation grâce aux stages, alternances et au réseau des entreprises partenaires. Le salaire moyen à l'embauche est de 42 000€ bruts annuels.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Comment rejoindre l'EFREI depuis un BTS ou un DUT/BUT ?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Via les admissions parallèles, vous pouvez intégrer directement en 2ème ou 3ème année selon votre niveau. Le processus comprend un dossier académique et un entretien de motivation. Les candidatures sont ouvertes de janvier à juin chaque année.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Y a-t-il des possibilités de partir à l'étranger ?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Oui, l'EFREI propose des semestres à l'international, des double-diplômes avec des universités partenaires en Europe, en Amérique du Nord et en Asie. Des bourses Erasmus+ sont disponibles pour financer vos séjours académiques à l'étranger.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Le diplôme de l'EFREI est-il reconnu ?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolument. L'EFREI est une Grande École accréditée par la CTI (Commission des Titres d'Ingénieur), membre de la CGE (Conférence des Grandes Écoles) et labellisée EESPIG. Nos diplômes sont reconnus au niveau national et international (grade de Licence pour les Bachelors, grade de Master pour le Cycle Ingénieur).</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="img/R.png" alt="Logo EFREI">
+        <p>La Grande École d'Ingénieurs Généralistes et d'Experts du Numérique.</p>
+        <p>📍 30-32 Avenue de la République, 94800 Villejuif</p>
+      </div>
+      <div class="footer-col">
+        <h4>Formations</h4>
+        <ul>
+          <li><a href="formations.html">Bachelors</a></li>
+          <li><a href="formations.html">Cycle Ingénieur</a></li>
+          <li><a href="formations.html">Alternance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Découvrir</h4>
+        <ul>
+          <li><a href="equipe.html">Corps Enseignant</a></li>
+          <li><a href="vie-etudiante.html">Vie Étudiante</a></li>
+          <li><a href="partenariats.html">Partenariats</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Admissions</a></li>
+          <li><a href="contact.html#faq">FAQ</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 EFREI Paris – Département Informatique.</p>
+      <nav>
+        <a href="apropos.html">À propos du projet</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="back-to-top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
